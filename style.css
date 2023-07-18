@@ -59,9 +59,9 @@ header{
 }
 .navlist a{
     color: var(--second-color);
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 600;
-    margin: 0 40px;
+    margin: 0 30px;
     transition: all ease .40s;
     
 
@@ -71,7 +71,7 @@ header{
     transform: translateX(5px);
     color: #fff;
     background: rgb(165, 52, 175);
-    padding: 25px;
+    padding: 15px;
     border-radius: 5px;
     
     
@@ -92,7 +92,7 @@ section{
     position: relative;
     min-height: 100vh;
     width: 100%;
-    background-image: url(/img/h1.jpeg);
+    background-image: url(img/h1.jpeg);
     background-size: cover;
     background-position: center;
     display: flex;
