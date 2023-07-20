@@ -43,13 +43,13 @@ header{
     align-items: center;
     justify-content: space-between;
     background: transparent;
-    padding: 28px 11%;
+    padding: 22px 9%;
     border-bottom: 1px solid transparent;
     transition: all ease .50s;
 
 }
 .logo img{
-    width: 50%;
+    width: 40%;
     height: auto;
 
 }
@@ -62,7 +62,7 @@ header{
     color: var(--second-color);
     font-size: 1.5rem;
     font-weight: 600;
-    margin: 0 40px;
+    margin: 0 30px;
     transition: all ease .40s;
     
 
