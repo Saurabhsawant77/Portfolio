@@ -23,8 +23,9 @@
     --text-color:#000;
     --second-color:#6726ad;
     --other-color: #eba7e9;
-    --h1-font: 7rem;
-    --h2-font: 3.5rem; 
+    --h1-font: 5rem;
+    --h2-font: 2.5rem; 
+    --p-font: 1.1rem;
 }
 
 body{
@@ -59,9 +60,9 @@ header{
 }
 .navlist a{
     color: var(--second-color);
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    margin: 0 30px;
+    margin: 0 40px;
     transition: all ease .40s;
     
 
@@ -71,7 +72,7 @@ header{
     transform: translateX(5px);
     color: #fff;
     background: rgb(165, 52, 175);
-    padding: 15px;
+    padding: 20px;
     border-radius: 5px;
     
     
@@ -86,7 +87,7 @@ header{
 
 }
 section{
-    padding: 120px 19% 100px;
+    padding: 120px 12% 100px;
 }
 .home{
     position: relative;
@@ -198,7 +199,7 @@ span{
 }
 .service-item{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    grid-template-columns: repeat(auto-fit,minmax(275px,auto));
     align-items: center;
     gap: 2.2rem;
     text-align: center;
@@ -245,7 +246,7 @@ span{
 
 .project-item{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(500px,auto));
+    grid-template-columns: repeat(auto-fit,minmax(400px,auto));
     align-items: center;
     gap: 2.2rem;
     text-align: center;
@@ -335,7 +336,7 @@ span{
     color: #000;
     border: 2px solid var(--main-color);
 }
-.scroll-btn{
+.scroll-btn i{
     position: fixed;
     right: 2.5rem;
     bottom: 2.5rem;
@@ -344,4 +345,106 @@ span{
     font-size: 25px;
     padding: 15px;
     border-radius: 1.8rem ;
+}
+
+@media (max-width:1600px) {
+    header{
+        padding:11px 4%;
+    }
+    header.sticky{
+        padding: 8px 4%;
+    }
+    section{
+        padding: 100px 5% 80px;
+    }
+    
+}
+@media (max-width:1200px){
+    .home{
+        min-height:90vh;
+    }
+    .navlist a{
+        margin: 0 20px;
+    }
+    :root{
+        --h1-font: 4rem;
+        --h2-font: 2.1rem; 
+        --p-font: 1rem;
+    }
+}
+@media (max-width:1060px){
+    .about{
+        grid-template-columns: 1fr;
+    }
+    .about-img{
+        text-align: center;
+        order: 2;
+    }
+    .about-img img{
+        max-width: 100%;
+        width: 600px;
+        height: auto;
+    }
+    .service-item{
+        grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+    }   
+}
+@media (max-width:870px) {
+    #menu-icon{
+        display: block;
+    }
+    .logo img{
+        height: 30px;
+        width: 60px;
+    }
+    .navlist{
+        position: absolute;
+        top: -800px;
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background: white;
+        padding:20px 0;
+        text-align: left;
+        transition: all .50s ease;
+    }
+    .navlist a{
+        display: block;
+        font-size: 17px;
+        padding: 10px 0;
+
+    }
+    .navlist.open{
+        top: 100%;
+    }
+}
+@media (max-width:660px){
+    .home{
+        min-height: 75vh;
+
+    }
+    :root{
+        --h1-font: 3.7rem;
+        --h2-font: 1.8rem; 
+        --p-font: 15px ;
+    }
+    .hero-text h4{
+        font-size: 18px;
+        word-spacing: 10px;
+        margin-bottom: 25px;
+    }
+    .btn{
+        padding: 10px 35px;
+    }
+}
+@media (max-width:460px){
+    :root{
+        --h1-font: 3.4rem;
+        --h2-font: 1.6rem; 
+    }
+    .hero-text{
+        font-size: 14px;
+        word-spacing: 7px;
+    }
 }
