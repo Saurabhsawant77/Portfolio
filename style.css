@@ -43,13 +43,13 @@ header{
     align-items: center;
     justify-content: space-between;
     background: transparent;
-    padding: 22px 9%;
+    padding: 28px 11%;
     border-bottom: 1px solid transparent;
     transition: all ease .50s;
 
 }
 .logo img{
-    width: 40%;
+    width: 50%;
     height: auto;
 
 }
@@ -62,7 +62,7 @@ header{
     color: var(--second-color);
     font-size: 1.5rem;
     font-weight: 600;
-    margin: 0 30px;
+    margin: 0 40px;
     transition: all ease .40s;
     
 
@@ -94,7 +94,6 @@ section{
     min-height: 100vh;
     width: 100%;
     background-image: url(img/h1.jpeg);
-    background-attachment:fixed;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -258,7 +257,7 @@ span{
 .project-box{
     font-size: 22px;
     color: #fff;
-    padding: 45px 30px;
+    padding: 50px 45px;
     background-color: rgb(108, 3, 109);
     border-radius: 0.8rem;
     border: 1px solid transparent;

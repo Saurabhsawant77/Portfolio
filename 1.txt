@@ -1,0 +1,11 @@
+PERSONAL PROJECTS 
+Web Scrapper for Ngo's (01/2022 - 05/2022) 
+This Project use to scrap the data of ngo's and provide it to the
+users. 
+It is web application created using HTML, CSS, Javascrip, Php and
+python. 
+Learnt the technologies like pythons library BeautifulSoup and Json
+
+
+It is web application created using HTML,CSS,JavaScript. It is helpful for students appearing for CET exam. It contains previous year quiz question with timer to practice for
+exam.
